@@ -1,0 +1,12 @@
+/**Book List
+The Holy Bible (5)
+The Students' Companion (4)
+The Silent Killer (3)
+**/
+
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "The Holy Bible", 5); 
+INSERT INTO books VALUES (2, "The Students' Companion", 4);
+INSERT INTO books VALUES (3, "The SIlent Killer", 3);
+SELECT * FROM Books;
